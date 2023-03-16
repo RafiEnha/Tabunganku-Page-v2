@@ -77,140 +77,31 @@ p.deskripsi {
   color: #676F9D;
 }
 
-.problem .icon-notbox {
-  padding: 10px 10px;
-  margin: 10px 20px;
-  transition: all ease-in-out 0.4s;
-  width: 400px;
+#btn-banner {
+  padding: 8px 35%;
   border-radius: 10px;
-}
-
-.problem .icon-notbox .icon img {
-  height: 100%;
-  width: 100%;
-  border-radius: 6px;
-  transition: 0.3s;
-}
-
-.problem .icon-notbox h3 {
-  color: #2B304D;
-  font-weight: 700;
-  font-size: 24px;
-}
-
-.problem .icon-notbox p {
-  color: #676F9D;
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 0;
-}
-
-.problem .icon-notbox:hover {
-  transform: translateY(-10px);
-}
-
-.problem .icon-box1 {
-  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
-  margin: 10px 30px;
-  transition: all ease-in-out 0.4s;
-  background: #676F9D;
-  height: 120px;
-  border-radius: 10px;
-}
-
-.problem .icon-box1 .icon img {
-  height: 64px;
-  width: 64px;
-  margin-top: 8px;
-  border-radius: 6px;
-  transition: 0.3s;
-}
-
-.problem .icon-box1 p {
-  color: #fff;
-  line-height: 14px;
-  font-size: 11px;
-  margin-bottom: 0;
-  text-align: justify;
-}
-
-.problem .icon-box1:hover {
-  transform: translateY(-10px);
-}
-
-.problem .icon-box1:hover p {
-  color: #FF9A7B;
-}
-
-.problem .icon-box2 {
-  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
-  margin: 10px 30px;
-  transition: all ease-in-out 0.4s;
-  background: #FFE0C3;
-  height: 120px;
-  border-radius: 10px;
-}
-
-.problem .icon-box2 .icon img {
-  height: 64px;
-  width: 64px;
-  margin-top: 8px;
-  border-radius: 6px;
-  transition: 0.3s;
-}
-
-.problem .icon-box2 p {
-  line-height: 14px;
-  font-size: 11px;
-  margin-bottom: 0;
-  text-align: justify;
-}
-
-.problem .icon-box2:hover {
-  transform: translateY(-10px);
-}
-
-.problem .icon-box2:hover p {
+  border-color: #676F9D;
   color: #676F9D;
 }
 
-.how .icon-box {
-  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
-  padding: 10px 10px;
-  margin: 10px 40px;
-  transition: all ease-in-out 0.4s;
-  background: #fff;
-  height: 350px;
-  border-radius: 10px;
+#btn-banner:hover {
+  background-color: #fff;
 }
 
-.how .icon-box .icon img {
-  height: 60px;
-  width: 60px;
-  margin-top: 8px;
-  border-radius: 6px;
-  transition: 0.3s;
+@media only screen and (max-width: 600px) {
+  #btn-banner {
+    margin-top: 12px;
+    padding: 8px 85px !important;
+    font-size: 13px;
+  }
 }
 
-.how .icon-box .desc {
-  padding: 20px 10px 30px;
-}
-
-.how .icon-box .desc h3 {
-  color: #676F9D;
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.how .icon-box .desc p {
-  color: #676767;
-  line-height: 14px;
-  font-size: 11px;
-  margin-bottom: 0;
-}
-
-.how .icon-box:hover {
-  transform: translateY(-10px);
+@media only screen and (max-width: 1400px) {
+  #btn-banner {
+    margin-top: 15px;
+    padding: 8px 85px !important;
+    font-size: 13px;
+  }
 }
 
 .features .section-title h2.title {
@@ -267,84 +158,4 @@ p.deskripsi {
   font-size: 16px;
   line-height: 26px;
   color: #676F9D;
-}
-
-#btn-banner {
-  padding: 8px 35%;
-  border-radius: 10px;
-  border-color: #676F9D;
-  color: #676F9D;
-}
-
-#btn-banner:hover {
-  background-color: #fff;
-}
-
-@media only screen and (max-width: 600px) {
-  #btn-banner {
-    margin-top: 12px;
-    padding: 8px 85px !important;
-    font-size: 13px;
-  }
-}
-
-@media only screen and (max-width: 1400px) {
-  #btn-banner {
-    margin-top: 15px;
-    padding: 8px 85px !important;
-    font-size: 13px;
-  }
-}
-
-.contact {
-  background-color: #b8bcd4;
-  background-size: cover;
-  margin-top: 60px;
-  padding-top: 30px;
-}
-
-.contact h3 {
-  color: #565656;
-  font-size: 40px;
-  font-weight: 600;
-}
-
-.contact p {
-  color: #2b304d;
-  font-size: 28px;
-  font-weight: 600;
-}
-
-.contact .image img {
-  width: 300px;
-  height: 275px;
-  border-radius: 20px;
-  margin: auto 40px;
-}
-
-.contact .icon img {
-  width: 25px;
-  height: 25px;
-}
-
-.contact a {
-  color: #fff;
-  font-size: 12px;
-  font-weight: 500;
-  text-decoration: none;
-  padding-left: 5px;
-}
-
-@media (max-width: 1024px) {
-  .contact {
-    background-attachment: scroll;
-  }
-}
-
-@media (min-width: 769px) {
-  .contact {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  }
 }
