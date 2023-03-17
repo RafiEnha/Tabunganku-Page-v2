@@ -99,12 +99,17 @@ h4.title {
 
 .btn-banner:hover {
   background-color: #fff;
-  color: #7D9DFF;
+  color: #FD719B;
 }
 
 .btn-banner-2:hover {
   background-color: #F1D946;
   color: #fff;
+}
+
+.btn-banner-3:hover {
+  background-color: #fff;
+  color: #7D9DFF;
 }
 
 @media only screen and (max-width: 600px) {
