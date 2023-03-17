@@ -65,10 +65,10 @@
                     <h3 class="title">Set and simulate your financial goals<br>the easiest ways ever.</h3>
                     <div class="row pt-4 justify-content-start d-flex">
                         <div class="col-3">
-                            <button class="btn-banner">More</button>
+                            <button id="buttonMore" class="btn-banner">More</button>
                         </div>
                         <div class="col-3">
-                            <button class="btn-banner-2">Simulate <i class="fa fa-arrow-right"></i></button>
+                            <button id="buttonSimulate" class="btn-banner-2">Simulate <i class="fa fa-arrow-right"></i></button>
                         </div>
                     </div>
                 </div>
@@ -94,7 +94,7 @@
                         mahasiswa dalam mengelola keuangan mereka</p>
                     <div class="row pt-4">
                         <div class="col-3">
-                            <button class="btn-banner">More</button>
+                            <button id="buttonMore" class="btn-banner">More</button>
                         </div>
                         <div class="col-9">
                             <img class="img3" src="assets/img/illust4.png">
@@ -114,7 +114,7 @@
             <div class="simulate-content justify-content-center text-center">
                 <h2>Hello People, your dream stuff<br>will come true</h2>
                 <p>Let's join with us to calculate your dream things</p>
-                <button class="btn-banner-3">Start Simulate <i class="fa fa-arrow-right"></i></button>
+                <button id="buttonSimulate" class="btn-banner-3">Start Simulate <i class="fa fa-arrow-right"></i></button>
             </div>
         </div>
     </section>
@@ -139,6 +139,15 @@
             </div>
         </div>
     </section>
+
+    <script type="text/javascript">
+        document.getElementById("buttonMore").onclick = function () {
+            location.href = "about.html";
+        };
+        document.getElementById("buttonSimulate").onclick = function () {
+            location.href = "simulator.html";
+        };
+    </script>
 
 </body>
 
